@@ -65,10 +65,9 @@ $ npm install
 
 ```bash
 # development
-$ npm run start
-
-# watch mode
 $ npm run start:dev
+
+$ npm run db:dev:restart
 
 # production mode
 $ npm run start:prod
@@ -87,3 +86,5 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
+## API DOCUMENTATION
+API documentation is generated using Swagger. After starting the application, navigate to http://localhost:3333/api to explore the API using Swagger UI.
